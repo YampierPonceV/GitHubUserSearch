@@ -74,6 +74,11 @@
   display: block;
 }
 
+.dark-input {
+  background: var(--whiteGray);
+  color: var(--azulOscuro);
+}
+
 @keyframes loader {
   to {
     transform: rotate(360deg);

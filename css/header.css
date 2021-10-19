@@ -19,4 +19,10 @@
   border: none;
   background-position: center;
   cursor: pointer;
+  filter: drop-shadow(0 0 3px);
+}
+
+button.mode-switch-icon {
+  background: transparent;
+  background-image: url("../assets/moon.svg");
 }

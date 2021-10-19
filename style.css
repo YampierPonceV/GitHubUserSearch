@@ -11,6 +11,10 @@
   --azulOscuro: #141c2f;
   --fuente-familia: "Poppins", sans-serif;
   --crimson: #dc143c;
+
+  /* LIGH MODE COLORS */
+  --whiteCeleste: #f5f8ff;
+  --whiteGray: #fefefe;
 }
 
 *,
@@ -27,6 +31,12 @@ body {
   background: var(--azulOscuro);
   color: var(--white);
   font-family: var(--fuente-familia);
+  transition: all 0.3s linear;
+}
+
+.dark {
+  background: var(--whiteCeleste);
+  color: var(--azulOscuro);
 }
 
 a {

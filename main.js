@@ -1,4 +1,5 @@
 import { getUser } from "./js/api.js";
+import { cambiarModo } from "./js/mode.js";
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -30,3 +31,5 @@ btnBuscar.onclick = () => {
     txtButon.classList.remove("text-search");
   }, 1000);
 };
+
+cambiarModo();

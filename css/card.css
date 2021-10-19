@@ -38,6 +38,10 @@
   border-radius: 4px;
 }
 
+.information-dark {
+  background: var(--whiteCeleste);
+}
+
 .social-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -77,6 +81,10 @@
   align-items: center;
   font-size: 14px;
   gap: 5px;
+}
+
+.dark-card {
+  background: var(--whiteGray);
 }
 
 @media screen and (max-width: 640px) {
