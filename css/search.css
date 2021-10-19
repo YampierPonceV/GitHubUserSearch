@@ -19,6 +19,7 @@
   border-radius: 4px;
   outline: none;
   position: relative;
+  transition: all linear 0.6s;
 }
 .icon-search {
   position: absolute;
@@ -44,4 +45,26 @@
   cursor: pointer;
   font-weight: bold;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-loader {
+  display: none;
+  animation: loader ease-in-out 0.3s infinite;
+}
+
+.icon-loader-mostrar {
+  display: block;
+}
+
+.text-search {
+  display: none;
+}
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -5,6 +5,11 @@
   background: var(--azulGray);
   border-radius: 4px;
   gap: 20px;
+  transition: all linear 0.6s;
+}
+
+.card-no-encontrado {
+  display: none;
 }
 
 .user-serch {

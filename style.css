@@ -2,6 +2,7 @@
 @import url("./css/header.css");
 @import url("./css/search.css");
 @import url("./css/card.css");
+@import url("./css/not-found.css");
 
 :root {
   --celesteClaro: #0177fb;
@@ -9,6 +10,7 @@
   --white: #ffffff;
   --azulOscuro: #141c2f;
   --fuente-familia: "Poppins", sans-serif;
+  --crimson: #dc143c;
 }
 
 *,
