@@ -44,6 +44,10 @@ a {
   padding: 12px 0;
 }
 
+a.dark-ancla {
+  color: var(--azulOscuro);
+}
+
 .wrapper {
   max-width: 600px;
   margin: 3rem auto;

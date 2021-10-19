@@ -5,6 +5,8 @@ const btnSwitch = $("#mode-switch");
 const inputBuscar = $("#input-search");
 const cardDark = $(".card");
 const informationDark = $(".information");
+const anclaTwitter = $("#twitter-dom");
+const anclaBlog = $("#blog-dom");
 
 function cambiarModo() {
   btnSwitch.onclick = () => {
@@ -14,6 +16,7 @@ function cambiarModo() {
     buttonCambiarImage();
     cardDarkCambiar();
     informationDarkCambiar();
+    anclasCambiarDark();
   };
 }
 
@@ -31,6 +34,11 @@ function cardDarkCambiar() {
 
 function informationDarkCambiar() {
   informationDark.classList.toggle("information-dark");
+}
+
+function anclasCambiarDark() {
+  anclaTwitter.classList.toggle("dark-ancla");
+  anclaBlog.classList.toggle("dark-ancla");
 }
 
 export { cambiarModo };
