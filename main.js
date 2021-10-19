@@ -7,14 +7,17 @@ const inputBuscar = $("#input-search");
 const user = "yampierponcev";
 const loaderIcon = $("#loader-icon");
 const txtButon = $("#text-search");
+const alertMensaje = $("#alert-mensaje");
 
 getUser(user);
 
 btnBuscar.onclick = () => {
   if (inputBuscar.value === "") {
     inputBuscar.focus();
-    return alert("Ingrese un nombre de usuario");
+    alertMensaje.classList.add("alert-mensaje-mostrar");
+    return;
   }
+  alertMensaje.classList.remove("alert-mensaje-mostrar");
   const user = inputBuscar.value;
   loaderIcon.classList.add("icon-loader-mostrar");
   txtButon.classList.add("text-search");

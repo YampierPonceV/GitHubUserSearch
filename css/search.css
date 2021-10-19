@@ -63,6 +63,17 @@
   display: none;
 }
 
+.alert-mensaje {
+  display: none;
+  position: absolute;
+  bottom: -25px;
+  color: var(--crimson);
+}
+
+.alert-mensaje-mostrar {
+  display: block;
+}
+
 @keyframes loader {
   to {
     transform: rotate(360deg);
