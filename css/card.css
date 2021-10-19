@@ -26,6 +26,7 @@
 
 .description-user p {
   margin: 0;
+  width: 400px;
 }
 
 .information {
@@ -100,5 +101,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description-user p {
+    margin: 0;
+    width: 100%;
   }
 }
