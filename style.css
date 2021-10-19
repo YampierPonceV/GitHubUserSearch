@@ -22,6 +22,7 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background: var(--azulOscuro);
   color: var(--white);
@@ -39,6 +40,15 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.footer {
+  text-align: center;
+}
+
+.title-footer {
+  font-weight: bold;
+  color: var(--celesteClaro);
 }
 
 @media screen and (max-width: 640px) {
