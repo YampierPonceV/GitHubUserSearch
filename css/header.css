@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mode-switch {
+  block-size: 1.5rem;
+  inline-size: 1.5rem;
+  background: transparent;
+  background-image: url("../assets/sun.svg");
+  background-size: cover;
+  border: none;
+  background-position: center;
+  cursor: pointer;
+}

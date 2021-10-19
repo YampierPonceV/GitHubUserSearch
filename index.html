@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Serch GITHUB</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="header">
+        <h3>UserSerch</h3>
+        <div class="switch">
+          <p>Dark Mode</p>
+          <button id="mode-switch" class="mode-switch"></button>
+        </div>
+      </section>
+      <section class="serch">
+        <img src="./assets/search.svg" alt="icon-search" class="icon-search" />
+        <input
+          type="search"
+          id="input-search"
+          class="input-search"
+          name="input-search"
+          placeholder="Search GitHub Username...."
+        />
+        <button id="btn-sarch" class="btn-sarch">Search</button>
+      </section>
+      <section class="card">
+        <header class="user-serch">
+          <img
+            src="./assets/github.png"
+            alt="user-profile"
+            width="120"
+            height="120"
+            id="avatar-dom"
+          />
+          <div class="hero-perfil-content">
+            <h2 class="name" id="name-dom">Yampier Ponce</h2>
+            <a class="user-name" id="username-dom" href="" target="_blank"
+              >YampierPonceV</a
+            >
+            <p class="create-acount">June 5 april 2018</p>
+          </div>
+        </header>
+        <section class="description-user">
+          <p id="bio-dom">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quasi
+            earum, quaerat est, natus libero officia, neque assumenda molestias
+            saepe praesentium! Sunt itaque mollitia nobis magni autem eaque
+            labore dolorum?
+          </p>
+        </section>
+        <section class="information">
+          <div class="information-repo">
+            <p>Repo</p>
+            <p class="score" id="repos-dom">81</p>
+          </div>
+          <div class="information-followers">
+            <p>Followers</p>
+            <p class="score" id="followers-dom">81</p>
+          </div>
+          <div class="information-following">
+            <p>Following</p>
+            <p class="score" id="following-dom">81</p>
+          </div>
+        </section>
+        <section class="social-links">
+          <div class="container-links ubicacion">
+            <img src="./assets/mapa.svg" alt="ubicacion" />
+            <p id="location-dom">Lima - Peru</p>
+          </div>
+          <div class="container-links web-personal">
+            <img src="./assets/blog.svg" alt="blog-personal" />
+            <a href="" id="blog-dom" target="_blank">https://yampi.ponce</a>
+          </div>
+          <div class="container-links twitter">
+            <img src="./assets/twitter.svg" alt="twitter-red-social" />
+            <a href="" id="twitter-dom" target="_blank">@YampierPonceV</a>
+          </div>
+          <div class="container-links trabajo">
+            <img src="./assets/company.svg" alt="trabajo-actual" />
+            <p id="company-dom">Freelance</p>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
