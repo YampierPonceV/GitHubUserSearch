@@ -12,7 +12,7 @@ const alertMensaje = $("#alert-mensaje");
 
 getUser(user);
 
-btnBuscar.onclick = () => {
+function ejecutarBusqueda() {
   if (inputBuscar.value === "") {
     inputBuscar.focus();
     alertMensaje.classList.add("alert-mensaje-mostrar");
@@ -30,6 +30,14 @@ btnBuscar.onclick = () => {
     loaderIcon.classList.remove("icon-loader-mostrar");
     txtButon.classList.remove("text-search");
   }, 1000);
-};
+}
+
+btnBuscar.addEventListener("click", ejecutarBusqueda);
 
 cambiarModo();
+
+window.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    ejecutarBusqueda();
+  }
+});
